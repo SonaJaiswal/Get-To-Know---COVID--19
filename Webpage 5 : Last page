@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <meta charset="UTF-8">
+	  <title>Donate Now !</title>
+	  <!-- ADD a LINK TO YOUR STYLE SHEET HERE!! -->
+</head>
+<body>
+	  <header>
+    <h1>Donate Now !</h1>
+      <p> <i>In a world full of people who couldn't care less , be someone who couldn't care more. </i>
+        </p>
+      
+      
+     <p>1.The Prime Minister's Citizen Assistance and Relief in Emergency Situations Fund was created on 28 March 2020, following the COVID-19 pandemic in India.</p>
+      
+		    <nav>
+			      <a href = "https://www.pmcares.gov.in/en/"> https://www.pmcares.gov.in/en/</a>
+		    </nav>
+      
+      
+      
+  
+  <p>2.The Covid-19 Solidarity Response Fund is a secure way for individuals, philanthropies and businesses to contribute to the WHO-led effort to respond to the pandemic.</p>
+      
+		    <nav>
+			      <a href = "https://www.facebook.com/donate/1564752357011737/10100167611916396/"> https://www.facebook.com/donate/1564752357011737/10100167611916396/</a>
+		    </nav>
+      
+      
+      <p>3.Aajeevika Bureau is raising funds to help migrants and daily wage workers in Mumbai, Ahmedabad and Surat with healthcare facilities, helplines, food and livelihood support and more.</p>
+      
+      <nav>
+			
+			      <a href = "https://www.ketto.org/fundraiser/covid-19-relief-and-post-pandemic-rebuilding-of-migrant-lives"> https://www.ketto.org/fundraiser/covid-19-relief-and-post-pandemic-rebuilding-of-migrant-lives</a>
+		    </nav>
+      
+<p>4.Chitrika is raising funds to help farmers, weavers, artisans and tribal in Telangana, Odisha, Andhra Pradesh and Maharashtra.</p>
+      
+		    <nav>
+			      <a href = "https://covid19.ketto.org/fundraiser/ChitrikaforCorona"> https://covid19.ketto.org/fundraiser/ChitrikaforCorona</a>
+		    </nav>
+      
+  </header>
+  
+  
+  <style>
+    body{
+	background:#B3B3B3;
+	margin:2%;
+	font-size: 125%;
+
+}
+
+header, footer{
+	background: black;
+	background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: linear-gradient(#666666 0%, #00b7ea 100%); 
+
+}
+
+header{
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+h1{
+	color: black;
+}
+
+nav{
+	font-variant: small-caps;
+	font-family: Arial, "Times New Roman", serif;
+  text-align: left;
+	font-size: 150%;
+}
+
+nav a{
+  
+	display: inline-block;
+/* 	background-color: #ffffff; */
+/* 	width:22%; */
+}
+
+h2{
+	color: #666666;
+	background: #00b7ea;
+}
+
+
+footer{
+  text-align: right;
+	height:25px;
+	clear: both;
+}
+
+p{
+  margin -left:2%;
+}
+
+
+    </style>
+  
+   <footer>
+		    <p> This platform has been created by Sona Jaiswal.</p>
+	  </footer>
+</body>
+</html>
+
+
+
