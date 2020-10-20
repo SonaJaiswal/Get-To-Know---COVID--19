@@ -1,0 +1,435 @@
+<body>
+
+     <nav id="navbar">
+     	<header>COVID-19 Documentation</header>
+     	<ul>
+     		<a href="#Introduction" class="nav-link" rel="internal"><li>What is COVID-19?</li></a>
+     		<a href="#Syntax" class="nav-link" rel="internal"><li>Signs and symptoms</li></a>
+     		<a href="#Borders" class="nav-link" rel="internal"><li>Cause</li></a>
+     		<a href="#Margin" class="nav-link" rel="internal"><li> Diagnosis</li></a>
+     		<a href="#Padding" class="nav-link" rel="internal"><li>Prevention</li></a>
+     		<a href="#Max-width" class="nav-link" rel="internal"><li>Management</li></a>
+     		<a href="#Inline-block" class="nav-link" rel="internal"><li> Prognosis</li></a>
+     		<a href="#Position" class="nav-link" rel="internal"><li>History</li></a>
+<!--      		<a href="#Overflow" class="nav-link" rel="internal"><li> Overflow</li></a>
+     		<a href="#Flex" class="nav-link" rel="internal"><li> Flex</li></a>
+     		<a href="#Grid" class="nav-link" rel="internal"><li> Grid</li></a>
+     		<a href="#Height-width" class="nav-link" rel="internal"><li> Height-width</li></a> -->
+<!--      		<a href="#Tables" class="nav-link" rel="internal"><li> Tables</li></a>
+     		<a href="#Display" class="nav-link" rel="internal"><li> Display</li></a>
+     		<a href="#Icons" class="nav-link" rel="internal"><li> Icons</li></a> -->
+     	</ul>
+     </nav>
+    <main id="main-doc">
+    	<section class="main-section" id="Introduction">
+    		<header>All you need to know about  COVID -19 </header>
+        <p> Why a lesson after quizzes ? This because life takes a test and then teaches a lesson , and so does this platform !! </p>
+    		<article>
+      
+    		 <h4>What is COVID-19?</h4>
+    		  <li>Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).</li>
+    		  <li>It was first identified in December 2019 in Wuhan, Hubei, China, and has resulted in an ongoing pandemic.</li>
+    		  <li>Traces of the virus have been found in wastewater that was collected from Milan and Turin, Italy, on 18 December 2019.</li>
+    		  <li>As of 29 June 2020, more than 10.1 million cases have been reported across 188 countries and territories, resulting in more than 501,000 deaths. </li>
+          <div class="img-container">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Novel_Coronavirus_SARS-CoV-2.jpg/375px-Novel_Coronavirus_SARS-CoV-2.jpg" alt="Italian Trulli">
+          </div>
+          
+      
+          
+          
+          
+<!--     		  <h4>Signs and symptoms</h4>
+    		  	<p>Fever is the most common symptom of COVID-19.Other common symptoms include cough, loss of appetite, fatigue, shortness of breath, sputum production, and muscle and joint pains.Symptoms such as nausea, vomiting, and diarrhoea have been observed in varying percentages. </p> -->
+              </article>
+        </section>
+        <section class="main-section" id="Syntax">
+    		<h4>Signs and symptoms</h4>
+    		  <article>
+    		  	<li>Fever is the most common symptom of COVID-19.</li>
+    		  	<li>Other common symptoms include cough, loss of appetite, fatigue, shortness of breath, sputum production, and muscle and joint pains.</li>
+    		  	<li>Symptoms such as nausea, vomiting, and diarrhoea have been observed in varying percentages.</li>
+    		  	<li> Less common symptoms include sneezing, runny nose, sore throat, and skin lesions.</li>
+            
+     
+            <table style="width:50%">
+  <caption>Symptoms of COVID-19</caption>
+  <tr>
+    <th>Symptom</th>
+    <th>Range</th>
+  </tr>
+  <tr>
+    <td>Fever</td>
+    <td>83–99%</td>
+  </tr>
+              
+              <tr>
+    <td>Cough</td>
+    <td>59–82%</td>
+  </tr>
+              
+              
+              <tr>
+    <td>Loss of appetite</td>
+    <td>40–84%</td>
+  </tr>
+              
+              
+              
+              <tr>
+    <td>Fatigue</td>
+    <td>44–70%</td>
+  </tr>
+              
+              
+              <tr>
+    <td>Shortness of breath</td>
+    <td>31–40%</td>
+  </tr>
+              
+              
+              <tr>
+    <td>Coughing up sputum</td>
+    <td>28–33%</td>
+  </tr>
+              
+              
+              <tr>
+    <td>Muscle aches and pains	</td>
+    <td>11–35%</td>
+  </tr>
+</table>
+      
+<!-- <code>p {
+text-align: center;
+color: red;
+}
+</code>    		  	 -->
+    		  </article>
+        </section>
+        <section class="main-section" id="Borders">
+    		<h4>Cause</h4>
+    		  <article>
+    		  	<li>COVID-19 spreads primarily when people are in close contact and one person inhales small droplets produced by an infected person (symptomatic or not) coughing, sneezing, talking, or singing.</li>
+    		  	<li>People can transmit the virus without showing symptoms, but it is unclear how often this happens.One estimate of the number of those infected who are asymptomatic is 40%</li>
+<!--     		  	<li>dotted - Defines a dotted border</li>
+    		  	<li>dashed - Defines a dashed border</li>
+    		  	<li>solid - Defines a solid border</li>
+    		  	<li>double - Defines a double border</li> -->
+          <div class="img-container">  
+       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sneeze.JPG/330px-Sneeze.JPG" alt="Flowers in Chania"> 
+            </div>
+            
+    		  </article>
+        </section>
+        <section class="main-section" id="Margin">
+    		<h4>Diagnosis</h4>
+    		  <article>
+    		  	<li>The WHO has published several testing protocols for the disease.</li>
+    		  	<li>The standard method of testing is real-time reverse transcription polymerase chain reaction (rRT-PCR).</li>
+            <li> The test is typically done on respiratory samples obtained by a nasopharyngeal swab; however, a nasal swab or sputum sample may also be used.</li>
+<!--             
+    		  	<h4>Margin properties:-</h4>
+    		  	<P>CSS has properties for specifying the margin for each side of an element:</P>
+    		  	<li>margin-top</li>
+    		  	<li>margin-right</li>
+    		  	<li>margin-bottom</li>
+    		  	<li>margin-left</li>
+<code>p {
+margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 150px;
+margin-left: 80px;
+}
+</code> -->
+          <div class="img-container">  
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Infektionsschutzzentrum_im_Rautenstrauch-Joest-Museum%2C_K%C3%B6ln-6313_%28cropped%29.jpg/330px-Infektionsschutzzentrum_im_Rautenstrauch-Joest-Museum%2C_K%C3%B6ln-6313_%28cropped%29.jpg" alt="Flowers in Chania">
+            </div>
+            
+    		  </article>
+        </section>
+        <section class="main-section" id="Padding">
+    		<h4>Prevention</h4>
+    		  <article>
+            <li> Preventive measures to reduce the chances of infection include washing hands with soap and water often and for at least 20 seconds, practising good respiratory hygiene, and avoiding touching the eyes, nose, or mouth with unwashed hands.</li>
+            <li>Social Distancing strategies aim to reduce contact of infected persons with large groups by closing schools and workplaces, restricting travel, and cancelling large public gatherings</li>
+            <li>Several countries have recommended that healthy individuals wear face masks or cloth face coverings (like scarves or bandanas) at least in certain public settings, including China,Hong Kong,Spain, Italy,Russia, and the United States.</li>
+            <li>It is further recommended using an alcohol-based hand sanitiser with at least 60% alcohol, but only when soap and water are not readily available.</li>
+       
+            <div class="img-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/20200609_Effect_of_pandemic_containment_measures.gif/495px-20200609_Effect_of_pandemic_containment_measures.gif" alt="Flowers in Chania">  
+            </div>     
+          
+            
+    		  </article>
+        </section>
+        <section class="main-section" id="Max-width">
+    		<h4>Management</h4>
+    		  <article>
+    		  	<li>People are managed with supportive care, which may include fluid therapy, oxygen support, and supporting other affected vital organs</li>
+            
+    		  	<li>The CDC recommends those who suspect they carry the virus wear a simple face mask.</li>
+            <li>Extracorporeal membrane oxygenation (ECMO) has been used to address the issue of respiratory failure, but its benefits are still under consideration.</li>
+    		  	
+    		  </article>
+        </section>
+        <section class="main-section" id="Inline-block">
+    		<h4>Prognosis</h4>
+    		  <article>
+    		  	<li>The severity of COVID‑19 varies</li>
+    		  	<li>The disease may take a mild course with few or no symptoms, resembling other common upper respiratory diseases such as the common cold. </li>
+    		  	<li>Mild cases typically recover within two weeks, while those with severe or critical diseases may take three to six weeks to recover. </li>
+            <li>Among those who have died, the time from symptom onset to death has ranged from two to eight weeks.</li>
+    		  </article>
+        </section>
+        <section class="main-section" id="Position">
+    		<h4>History</h4>
+    		  <article>
+    		  	<li>The virus is thought to be natural and has an animal origin,[84] through spillover infection.</li>
+    		  	<li>According to official Chinese sources, these were mostly linked to the Huanan Seafood Wholesale Market, which also sold live animals.</li>
+            <li> In May 2020, George Gao, the director of the Chinese Center for Disease Control and Prevention, said animal samples collected from the seafood market had tested negative for the virus, indicating that the market was the site of an early superspreading event, but it was not the site of the initial outbreak.</li>
+<!--     		  	<li>static</li>
+    		  	<li>relative</li>
+    		  	<li>fixed</li>
+    		  	<li>absolute</li>
+    		  	<li>sticky</li>
+<code>div.static {
+position: static;
+border: 3px solid #73AD21;
+}
+</code> -->
+    		  </article>
+        </section>
+        <section class="main-section" id="Overflow">
+    		<h4>Research</h4>
+    		  <article>
+    		  	<li>No medication or vaccine is approved with the specific indication to treat the disease. International research on vaccines and medicines in COVID‑19 is underway by government organisations, academic groups, and industry researchers.</li>
+            <h5>Vaccine</h5>
+    		  	<li>There is no available vaccine, but various agencies are actively developing vaccine candidates.</li>
+    		  	<li>Previous work on SARS-CoV is being used because both SARS-CoV and SARS-CoV-2 use the ACE2 receptor to enter human cells.</li>
+            <h5>Medications</h5>
+    		  	<li>At least 29 phase II–IV efficacy trials in COVID‑19 were concluded in March 2020, or scheduled to provide results in April from hospitals in China.[341][342] There are more than 300 active clinical trials underway as of April 2020.</li>
+    		  	<li>Seven trials were evaluating already approved treatments, including four studies on hydroxychloroquine or chloroquine.</li>
+ 
+            <h5>Cytokine storm</h5>
+            <li>A cytokine storm can be a complication in the later stages of severe COVID‑19.</li>
+            <li>There is preliminary evidence that hydroxychloroquine may be useful in controlling cytokine storms in late-phase severe forms of the disease.</li>
+            
+            <h5>Passive antibodies</h5>
+            <li>Transferring purified and concentrated antibodies produced by the immune systems of those who have recovered from COVID‑19 to people who need them is being investigated as a non-vaccine method of passive immunisation.</li>
+            <li>This strategy was tried for SARS with inconclusive results.</li>
+    		  </article>
+        </section>
+     
+    </main> 
+  
+  
+  
+  
+  <style>
+    
+
+
+/*   <style type="text/css"> */
+/*   	*{
+  	margin: 0px;
+    padding: 0px;
+  	} */
+	html,body{
+    min-width: 300px;
+    background:#B3B3B3;
+    font-family: 'Open Sans',Arial,sans-serif;
+    
+   }
+    p{
+       border-bottom: 4px solid #00b7ea;
+  border-top: 4px solid #00b7ea;
+  border-left: 4px solid #00b7ea;
+  border-right: 4px solid #00b7ea;
+<!--       background: #00b7ea ; -->
+    }
+   header {
+     
+     border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  
+   	text-align: center; 
+/*    	color: #2F4F4F; */
+   	margin: 10px;
+    font-size:28px;
+    font-weight:bold; 
+     
+     background: #666666;
+	background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: linear-gradient(#666666 0%, #00b7ea 100%); 
+     
+     
+   }
+   #navbar{
+   	position: fixed;
+   	width:300px;
+   	height: 100%;
+   	border-right: solid;
+   	top: 0px;
+   	left: 0px;
+   	min-width:300px;
+   }
+   #navbar ul{
+     height:80%;
+     overflow-y:auto;
+     overflow-x:hidden;
+   }
+   #navbar li{
+     list-style: none;
+     color: grey ;
+     font-weight:bold; 
+     border: 1px solid black;   
+/*      background: */
+     width: 100%;
+     position: relative;
+     font-size: 20px;
+     padding:8px;
+     padding-left:45px;
+     list-style: none;
+     left:-50px; 
+   }
+   #navbar ul a{
+   	text-decoration: none;
+   	}
+   #navbar ul li:hover{
+/*    	 background-color: black; */
+     background-color:  #00b7ea;
+   }
+    
+   #main-doc{
+     position:absolute;
+   	 margin-left:310px;
+     padding:30px;
+     font-size: 25px;
+     margin-bottom: 100px;
+
+    }
+   img:hover{
+/*    	 background-color: black; */
+     width:100%
+   }
+  
+   #main-doc header{
+     
+   	text-align:left;
+/*    	color: #000000; */
+   }
+   
+     section article{
+/*      	color: #5F9EA0; */
+     	margin: 20px;
+     }
+     section p{
+     	margin: 18px;
+     	font-size: 20px;
+     }
+     section li{
+     	margin: 25px;
+     	font-size: 18px;
+     }
+     section h4{
+       background: #00b7ea;
+     	padding: 10px;
+      font-size:20px;
+       
+       
+       border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+       
+     }
+
+section h5{
+  background: #00b7ea;
+     	padding: 10px;
+      font-size:20px;
+       margin-left:10px;
+       
+       border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+img{
+    border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+}
+
+.img-container {
+        text-align: center;
+      }
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+   border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+}
+
+caption{
+  border-bottom: 5px solid black;
+}
+
+  @media only screen and (max-width: 815px) {
+        /* For mobile phones: */
+     #navbar ul{
+             border:1px solid;
+              } 
+     #navbar{
+      background-color:white;
+      position:absolute;
+      top:0;
+      padding:0;
+      margin: 0;
+      width:100%;
+      max-height:300px;
+      border:none;
+      z-index:1;
+      border-bottom:1px solid;
+    }
+    body{
+      background -color:dark blue;
+    }
+    #main-doc{
+    position: relative;
+    margin-left:0px;
+    margin-top:280px;
+    background-color: white;
+  }
+   }
+  @media only screen and (max-width: 500px) {
+    #main-doc{
+      margin-left:-30px;
+  }
+    body{
+      background -color:dark blue;
+    }
+  code{
+    margin-left:-10px;
+    width:100%;
+    padding:15px;
+    padding-left:10px;
+    padding-right:45px;
+    min-width:233px;
+  }
+ }
+    
+  </style>
+  
+  
+</body>
+</html>
+
