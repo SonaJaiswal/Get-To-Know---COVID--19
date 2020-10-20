@@ -1,0 +1,136 @@
+# Get-To-Know---COVID--19
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <meta charset="UTF-8">
+	  <title>COVID-19 AWARENESS</title>
+</head>
+<body>
+	  <header>
+    <h1>Why this platform ?</h1>
+      <p>The COVID-19 pandemic, also known as the coronavirus pandemic, is an ongoing global pandemic of coronavirus disease 2019 (COVID‑19), caused by SARS‑CoV‑2.
+      <br>On May 20,2020, there was a total of around 1,24,525 confirmed cases. While on June 30,2020, the huge spike of cases took India's tally to  5,66,840 cases.</br>
+  <br>We need to have a sense of self awareness by which we can prevent the spread of the virus.</br>
+  <br>And this is what this platform does !  </br> </p>
+
+   
+   <button type="button" onclick="openMe()">Lets Get Started !</button>
+
+
+
+		    <nav id="demo">
+			      <a href = "https://coursera-assessments.s3.amazonaws.com/assessments/1594276510722/d60e3ec3-0f79-41fb-80ca-f4229e175112/web%281%29.html">Myth Busters Quiz</a>
+          <p></p>
+			      <a href = "https://coursera-assessments.s3.amazonaws.com/assessments/1595054264976/48c182ef-2aac-4496-92e0-78692973a566/web%282%29.html">COVID-19 general knowledge quiz(graded)</a><p></p>
+			     
+			      <a href = "https://coursera-assessments.s3.amazonaws.com/assessments/1595054321686/61ff4ec3-6d41-4e21-cf12-5af7b1340b38/web%283%29final.html">All you need to know about COVID-19</a>  <p></p>
+           <a href = "https://coursera-assessments.s3.amazonaws.com/assessments/1595054452670/b095a897-8953-4cb0-a27b-5bc2c0fab329/web%284%29.html">Donate now for the cause!</a><p></p>
+          
+		    </nav>
+
+<style>
+  #demo{
+  display:none;
+/*   margin-left:400px; */
+  text-align: center;
+}
+
+button{
+			  width:300px;
+        height:40px;
+  			background-color: #00CCEE;
+  			margin-left:15px;
+  			font-size:120%;
+  		}
+
+#demo{
+  		color:white;
+      padding:10px;
+      font-size:120%
+}
+
+body{
+	background:#B3B3B3;
+	margin:2%;
+	font-size: 125%;
+
+}
+
+header, footer{
+	background: #666666;
+	background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: linear-gradient(#666666 0%, #00b7ea 100%); 
+
+}
+
+header{
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+h1{
+/* 	color: #ffffff; */
+  color:black;
+}
+
+nav{
+	font-variant: small-caps;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 150%;
+/*   width:500px; */
+}
+
+nav a{
+	display: inline-block;
+	background-color:  #B3B3B3;
+/*     #ffffff; */
+	width:22%;
+  
+  
+  
+  
+}
+
+h2{
+	color: #666666;
+	background: #00b7ea;
+}
+
+
+.whole{
+	clear:both;
+}
+
+footer{
+	height:25px;
+	clear: both;
+  text-align: right;
+}
+img{
+	width: 75px;
+}
+
+
+</style>
+
+<script>
+  function openMe(){
+  x=document.getElementById("demo");
+  x.style.display="block";
+}
+</script>
+
+
+
+	  </header>
+	  
+
+	
+   <footer>
+		    <p> This platform has been created by Sona Jaiswal. </p>
+	  </footer>
+
+</body>
+</html>
