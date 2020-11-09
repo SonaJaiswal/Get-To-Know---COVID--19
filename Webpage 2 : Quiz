@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 
@@ -14,143 +15,367 @@
 <h1>QUIZ</h1>
 
 
-<form id = "quiz" name = "quiz">
+<!-- <form id = "quiz" name = "quiz">
 
 
 <!-- <p class = "questions">What is the capital of Rhode Island?</p>
-<input id = "textbox" type = "text" name = "question1"> -->
+<input id = "textbox" type = "text" name = "question1">
 
-<p class = "questions">1.Which of the following is a clinical trial in which blood is transfused from recovered COVID-19 patients to coronavirus patient who is in critical condition ? </p>
-<input type = "radio" id = "mc" name = "question1" value = "Gestalt Therapy">Gestalt Therapy<br>
-<input type = "radio" id = "mc" name = "question1" value = "Extracorporeal shockwave therapy">Extracorporeal shockwave therapy<br>
-  <input type = "radio" id = "mc" name = "question1" value = "Convalescent Plasma Therapy">Convalescent Plasma Therapy<br>
-  <input type = "radio" id = "mc" name = "question1" value = "Accelerated Experiential Dynamic Therapy ">Accelerated Experiential Dynamic Therapy <br>
+<p class = "questions">What is the capital of Connecticut?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Hartford"> Hartford<br>
+<input type = "radio" id = "mc" name = "question2" value = "Heartford"> Heartford<br> -->
 
-  <img src="https://images.firstpost.com/fpimages/1200x800/fixed/jpg/2020/04/181017-F-EM228-0002-1.jpg" alt="Simply Easy Learning" width="200"
-         height="80">
-  
-   <p class = "questions">2. Which of the following viruses cause COVID-19 ?</p>
+<!-- <!-- <p class = "questions">Can Ginger cure COVID 19 ?</p>
 
-<input type = "radio" id = "mc" name = "question2" value = "Hantavirus">Hantavirus<br>
-<input type = "radio" id = "mc" name = "question2" value = "Ebola virus">Ebola virus <br>
-  <input type = "radio" id = "mc" name = "question2" value = "MERS‐CoV">MERS‐CoV<br>
-  <input type = "radio" id = "mc" name = "question2" value = "SARS-CoV-2">SARS-CoV-2<br>
-  
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Novel_Coronavirus_SARS-CoV-2.jpg" alt="Simply Easy Learning" width="200"
-         height="80">
-  
-<p class = "questions">3. The genetic material of the virus, which causes COVID -19 ,comprises  ?</p>
+<input type = "radio" id = "mc" name = "question3" value = "Yes"> Yes<br>
+<input type = "radio" id = "mc" name = "question3" value = "No"> No<br>
 
-<input type = "radio" id = "mc" name = "question3" value = "RNA">RNA<br>
-<input type = "radio" id = "mc" name = "question3" value = "DNA">DNA <br>
-  <input type = "radio" id = "mc" name = "question3" value = "Protosova">Protosova<br>
-  <input type = "radio" id = "mc" name = "question3" value = "Chrominome">Chrominome<br>
-  
-  
-  <img src="https://www.genengnews.com/wp-content/uploads/2020/02/Feb24_2020_CDC_Coronavirus-scaled-e1582556880177.jpg" alt="Simply Easy Learning" width="200"
-         height="80">
-  
-  <p class = "questions">4.What is the period between the contraction of the virus and the manifestation of the disease called? ?</p>
 
-<input type = "radio" id = "mc" name = "question4" value = "Incubation Period"> Incubation Period<br>
-<input type = "radio" id = "mc" name = "question4" value = "Infection Period"> Infection Period <br>
-  <input type = "radio" id = "mc" name = "question4" value = "Expectation Period"> Expectation Period<br>
-  <input type = "radio" id = "mc" name = "question4" value = "Quarantine Period"> Quarantine Period<br>
-  
-  <img src="https://cdn.the-scientist.com/assets/articleNo/67045/aImg/35755/coronavirus-incubation-l.jpg" alt="Simply Easy Learning" width="200"
-         height="80">
-  
-  <p class = "questions">5.Which of the following statement is/are correct about Favipiravir?</p>
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
 
-<input type = "radio" id = "mc" name = "question5" value = "Favipiravir is an antiviral COVID-19 drug.">Favipiravir is an antiviral COVID-19 drug.<br>
-<input type = "radio" id = "mc" name = "question5" value = " Glenmark Pharmaceuticals under the brand name FabiFlu has launched an antiviral drug Favipiravir.">Glenmark Pharmaceuticals under the brand name FabiFlu has launched an antiviral drug Favipiravir. <br>
-  <input type = "radio" id = "mc" name = "question5" value = "It is India's first COVID-19 drug launched, priced at Rs 103 per tablet.">It is India's first COVID-19 drug launched, priced at Rs 103 per tablet. <br>
-  <input type = "radio" id = "mc" name = "question5" value = "All the above are correct">All the above are correct <br>
-  
- 
-  <img src="https://images.firstpost.com/wp-content/uploads/2020/06/Favipiravir-tablets_ISSEI-KATO_Reuters.jpg" alt="Simply Easy Learning" width="200"
-         height="80">
-  
-  
-  <p class = "questions">6.Thailand announced that it has proceeded to test its novel coronavirus vaccine on which animal/bird?</p>
 
-<input type = "radio" id = "mc" name = "question6" value = "Monkeys">Monkeys<br>
-<input type = "radio" id = "mc" name = "question6" value = "Lizards">Lizards<br>
-  <input type = "radio" id = "mc" name = "question6" value = "Hens">Hens<br>
-  <input type = "radio" id = "mc" name = "question6" value = "Kites">Kites<br>
-  
-  <img src="https://i.ytimg.com/vi/OhVhrcy01jE/maxresdefault.jpg" alt="Simply Easy Learning" width="200"
-         height="80">
-  
-  <p class = "questions">7.When did WHO declare COVID-19 as Public Health Emergency of International Concern  ?</p>
-
-<input type = "radio" id = "mc" name = "question7" value = "30 January 2020">30 January 2020<br>
-<input type = "radio" id = "mc" name = "question7" value = "30 January 2020">30 February 2020 <br>
-  <input type = "radio" id = "mc" name = "question7" value = "30 January 2020">30 March 2020 <br>
-  <input type = "radio" id = "mc" name = "question7" value = "30 January 2020">30 April 2020 <br>
-  
-  
-  <img src="https://pbs.twimg.com/media/D_1zhPJXsAE5-5p.jpg" alt="Simply Easy Learning" width="200"
-         height="80">
-  
-  <p class = "questions">8.Which among the following does not belong to the coronavirus family?</p>
-
-<input type = "radio" id = "mc" name = "question8" value = "229E alpha">229E alpha<br>
-<input type = "radio" id = "mc" name = "question8" value = "NL63 alpha">NL63 alpha <br>
-  <input type = "radio" id = "mc" name = "question8" value = "OC43 beta">OC43 beta<br>
-  <input type = "radio" id = "mc" name = "question8" value = "CW11 beta">CW11 beta<br>
- <img src="https://en.as.com/en/imagenes/2020/03/27/other_sports/1585319003_056685_1585319962_sumario_normal.jpg" width="200"
-         height="80"> 
-  
-  <p class = "questions">9.In a study, which cells are found in COVID-19 patients 'bode well' for long term immunity?</p>
-
-<input type = "radio" id = "mc" name = "question9" value = "P-cell">P-cell<br>
-<input type = "radio" id = "mc" name = "question9" value = "D-Cell">D-Cell<br>
-  <input type = "radio" id = "mc" name = "question9" value = "T-Cell">T-Cell<br>
-  <input type = "radio" id = "mc" name = "question9" value = "Endothelial Cells">Endothelial Cells<br>
-  
-  
-  
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Healthy_Human_T_Cell.jpg/1200px-Healthy_Human_T_Cell.jpg" alt="Simply Easy Learning" width="200"
-         height="80">
-  
-  <p class = "questions">10.Name the vaccine that is jointly developed by the German company BioNTech and US pharma giant Pfizer for COVID-19?</p>
-
-<input type = "radio" id = "mc" name = "question10" value = "BNT162">BNT162<br>
-<input type = "radio" id = "mc" name = "question10" value = "PICOVACC">PICOVACC <br>
-<input type = "radio" id = "mc" name = "question10" value = "Both A and B">Both A and B<br>
-  <input type = "radio" id = "mc" name = "question10" value = "Neither A nor B">Neither A nor B<br>
-
-  
-<!-- <input id = "button" type = "button" value = "Submit" onclick = "check();"> -->
-
-<button type="button" onclick="check();">Submit</button>
-  
 </form>
 
-<div id = "after_submit">
-<p id = "number_correct"></p>
-<p id = "message"></p>
-  <p id= "solutions" ></p>
   
-  <p id="demo"> <u>Answers</u> 
-    <br>1. Convalescent Plasma Therapy is a clinical trial in which blood is transfused from recovered COVID-19 patients to coronavirus patient who is in critical condition. </br>  
-    <br>2.SARS-CoV-2 cause COVID-19.</br>
-  <br>3.SARS-CoV-2 comprises of RNA.</br> 
-<br>4.The period between the contraction of the virus and the manifestation of the disease called incubation period.</br> 
-<br>5. All of the said statements for Favipiravir are true. </br> 
-<br>6. Thailand announced that it has proceeded to test its novel coronavirus vaccine on monkeys.</br> 
-<br>7. WHO declared COVID-19 as Public Health Emergency of International Concern on 30 January 2020.</br> 
-<br>8.CW11 beta doesn't belong to the Coronavirus family.</br> 
-<br>9.T -cells are found in COVID-19 patients 'bode well' for long term immunity.</br> 
-<br>10.BNT162 is the vaccine that is jointly developed by the German company BioNTech and US pharma giant Pfizer for COVID-19.</br> 
-  </p>
-<!-- <img id = "picture"> -->
+  
+<div id = "after_submit">
+<!-- <p id = "number_correct"></p> -->
+ 
+<!--   <p id ="yesno"></p>
+<p id = "message"></p>
+<!-- <img id = "picture"> -->  
+<!--   <input id = "button" type = "button" value = "Next Question" onclick = "Q2();"> -->
+
+  
+<!-- </div>   -->
+  
+<!--   <div id ="after_Q2"> -->
+    <form id = "quiz1" name = "quiz1">
+     <p class = "questions1">1.Can eating garlic help prevent infection with the new coronavirus?</p>
+
+<input type = "radio" id = "mc" name = "question1" value = "Yes"> Yes<br>
+<input type = "radio" id = "mc" name = "question1" value = "No"> No<br>
+      
+<!--       <input id = "button" type = "button" value = "I'm finished!" onclick = "check1();"> -->
+      
+      <button type="button" onclick="check1();">Check Answer</button>
+      
+      
+    </form> 
+  
+  <div id = "after_submit1">
+<!-- <p id = "number_correct"></p> -->
+ 
+  <p id ="yesno1"></p>
+<p id = "message1"></p>
+<!-- <img id = "picture"> -->  
+<!--   <input id = "button" type = "button" value = "Question 2" onclick = "Q2();"> -->
+    
+    <button type="button" onclick="Q2();">Question 2</button>
+
+  
 </div>
   
+  
+  
+  <div id ="after_Q2">
+    <form id = "quiz2" name = "quiz2">
+     <p class = "questions2">2.Should people wear masks while exercising? </p>
 
-<style>
-     body{
+<input type = "radio" id = "mc" name = "question2" value = "Yes"> Yes<br>
+<input type = "radio" id = "mc" name = "question2" value = "No"> No<br>
+      
+<!--       <input id = "button" type = "button" value = "I'm finished!" onclick = "check2();"> -->
+      
+      <button type="button" onclick="check2();">Check Answer</button>
+      
+    </form> 
+  </div>
+  
+  <div id = "after_submit2">
+<!-- <p id = "number_correct"></p> -->
+ 
+  <p id ="yesno2"></p>
+<p id = "message2"></p>
+<!-- <img id = "picture"> -->  
+  <button type="button" onclick="Q3();">Question 3</button>
+
+  
+</div>
+  
+  
+  <div id ="after_Q3">
+    <form id = "quiz3" name = "quiz3">
+     <p class = "questions3">3.Can thermal scanners detect people who are infected with the new coronavirus but show no symptoms yet?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Yes"> Yes<br>
+<input type = "radio" id = "mc" name = "question3" value = "No"> No<br>
+      
+<!--       <input id = "button" type = "button" value = "I'm finished!" onclick = "check3();"> -->
+      
+      <button type="button" onclick="check3();">Check Answer</button>
+      
+    </form> 
+    
+    <div id = "after_submit3">
+<!-- <p id = "number_correct"></p> -->
+ 
+  <p id ="yesno3"></p>
+<p id = "message3"></p>
+<!-- <img id = "picture"> -->  
+<!--   <input id = "button" type = "button" value = "Question 4" onclick = "Q4();"> -->
+      
+<button type="button" onclick="Q4();">Question 4</button>
+  
+</div>
+    
+   
+  
+    <div id ="after_Q4">
+    <form id = "quiz4" name = "quiz4">
+     <p class = "questions4">4.How much minimum distance should be kept while following social distancing guidelines?</p>
+
+<input type = "radio" id = "mc" name = "question4" value = "0.25 metres">0.25 metres<br>
+<input type = "radio" id = "mc" name = "question4" value = "0.5 metres">0.5 metres<br>
+      <input type = "radio" id = "mc" name = "question4" value = "0.75 metres">0.75 metres<br>
+      <input type = "radio" id = "mc" name = "question4" value = "1 metre">1 metre<br>
+      
+<!--       <input id = "button" type = "button" value = "I'm finished!" onclick = "check4();"> -->
+      
+      <button type="button" onclick="check4();">Check Answer</button>
+      
+    </form> 
+  
+  
+      
+      <div id = "after_submit4">
+<!-- <p id = "number_correct"></p> -->
+ 
+  <p id ="yesno4"></p>
+<p id = "message4"></p>
+<!-- <img id = "picture"> -->  
+<!--   <input id = "button" type = "button" value = "Question 5" onclick = "Q5();"> -->
+        
+        
+        <button type="button" onclick="Q5();">Question 5</button>
+
+  
+</div>
+  
+  <div id ="after_Q5">
+    <form id = "quiz5" name = "quiz5">
+     <p class = "questions5">5.Can COVID-19 virus can  transmit in areas with cold climates ?</p>
+
+<input type = "radio" id = "mc" name = "question5" value = "Yes"> Yes<br>
+<input type = "radio" id = "mc" name = "question5" value = "No"> No<br>
+      
+<!--       <input id = "button" type = "button" value = "I'm finished!" onclick = "check5();"> -->
+      
+      <button type="button" onclick="check5();">Check Answer</button>
+      
+    </form> 
+      
+      
+    <div id = "after_submit5">
+<!-- <p id = "number_correct"></p> -->
+ 
+  <p id ="yesno5"></p>
+<p id = "message5"></p>
+<!-- <img id = "picture"> -->  
+<!--   <input id = "button" type = "button" value = "Question 6" onclick = "Q6();"> -->
+
+      <button type="button" onclick="Q6();">Question 6</button>
+  
+</div>
+    
+   
+    
+    
+    <div id ="after_Q6">
+    <form id = "quiz6" name = "quiz6">
+     <p class = "questions6">6.COVID -19 can spread through which of the following insects ?</p>
+
+<input type = "radio" id = "mc" name = "question6" value = "Houseflies"> Houseflies<br>
+<input type = "radio" id = "mc" name = "question6" value = "Mosquitos"> Mosquitos<br>
+      <input type = "radio" id = "mc" name = "question6" value = "Both"> Both<br>
+      <input type = "radio" id = "mc" name = "question6" value = "None"> None<br>
+      
+<!--       <input id = "button" type = "button" value = "I'm finished!" onclick = "check6();"> -->
+      
+      <button type="button" onclick="check6();">Check Answer</button>
+      
+    </form> 
+    
+    
+    <div id = "after_submit6">
+<!-- <p id = "number_correct"></p> -->
+ 
+  <p id ="yesno6"></p>
+<p id = "message6"></p>
+<!-- <img id = "picture"> -->  
+<!--   <input id = "button" type = "button" value = "Question 7" onclick = "Q7();"> -->
+      
+      <button type="button" onclick="Q7();">Question 7</button>
+
+  
+</div>
+      
+      
+      
+      
+      <div id ="after_Q7">
+    <form id = "quiz7" name = "quiz7">
+     <p class = "questions7">7.Can exposing yourself to the sun or to temperatures higher than 25C degrees prevent the coronavirus disease (COVID-19)?</p>
+
+<input type = "radio" id = "mc" name = "question7" value = "Yes"> Yes<br>
+<input type = "radio" id = "mc" name = "question7" value = "No"> No<br>
+      
+<!--       <input id = "button" type = "button" value = "I'm finished!" onclick = "check7();"> -->
+      
+      <button type="button" onclick="check7();">Check Answer</button>
+      
+    </form> 
+    
+    
+    <div id = "after_submit7">
+<!-- <p id = "number_correct"></p> -->
+ 
+  <p id ="yesno7"></p>
+<p id = "message7"></p>
+<!-- <img id = "picture"> -->  
+<!--   <input id = "button" type = "button" value = "Question 8" onclick = "Q8();"> -->
+      
+      <button type="button" onclick="Q8();">Question 8</button>
+
+  
+</div>
+        
+        
+        
+        <div id ="after_Q8">
+    <form id = "quiz8" name = "quiz8">
+     <p class = "questions8">8.Can the prolonged use of medical masks* (Medical masks (also known as surgical masks) are flat or pleated; they are affixed to the head with straps or have ear loops.)cause CO2 intoxication nor oxygen deficiency  ?</p>
+
+<input type = "radio" id = "mc" name = "question8" value = "Yes"> Yes<br>
+<input type = "radio" id = "mc" name = "question8" value = "No"> No<br>
+      
+<!--       <input id = "button" type = "button" value = "I'm finished!" onclick = "check8();"> -->
+      
+      <button type="button" onclick="check8();">Check Answer</button>
+      
+    </form> 
+    
+    
+    <div id = "after_submit8">
+<!-- <p id = "number_correct"></p> -->
+ 
+  <p id ="yesno8"></p>
+<p id = "message8"></p>
+<!-- <img id = "picture"> -->  
+<!--   <input id = "button" type = "button" value = "Question 9" onclick = "Q9();"> -->
+      
+      <button type="button" onclick="Q9();">Question 9</button>
+
+  
+</div>
+      
+      
+          
+          <div id ="after_Q9">
+    <form id = "quiz9" name = "quiz9">
+     <p class = "questions9">9.Are antibiotics effective in preventing and treating the new coronavirus?</p>
+
+<input type = "radio" id = "mc" name = "question9" value = "Yes"> Yes<br>
+<input type = "radio" id = "mc" name = "question9" value = "No"> No<br>
+      
+<!--       <input id = "button" type = "button" value = "I'm finished!" onclick = "check9();"> -->
+      
+      <button type="button" onclick="check9();">Check Answer</button>
+      
+    </form> 
+    
+    
+    <div id = "after_submit9">
+<!-- <p id = "number_correct"></p> -->
+ 
+  <p id ="yesno9"></p>
+<p id = "message9"></p>
+<!-- <img id = "picture"> -->  
+<!--   <input id = "button" type = "button" value = "Question 10" onclick = "Q10();"> -->
+      <button type="button" onclick="Q10();">Question 10</button>
+
+  
+</div>
+                      
+   <div id ="after_Q10">
+    <form id = "quiz10" name = "quiz10">
+     <p class = "questions10">10.Can 5G mobile networks spread COVID-19 ?</p>
+
+<input type = "radio" id = "mc" name = "question10" value = "Yes"> Yes<br>
+<input type = "radio" id = "mc" name = "question10" value = "No"> No<br>
+      
+<!--       <input id = "button" type = "button" value = "I'm finished!" onclick = "check10();"> -->
+      
+      <button type="button" onclick="check10();">Check Answer</button>
+      
+    </form> 
+    
+    
+    <div id = "after_submit10">
+<!-- <p id = "number_correct"></p> -->
+ 
+  <p id ="yesno10"></p>
+<p id = "message10"></p>
+</div>
+     
+    
+     
+     
+     <style>
+       #after_Q2{
+  display : none ;
+}
+#after_Q3{
+  display : none ;
+}
+
+#after_Q4{
+  display : none ;
+}
+
+#after_Q5{
+  display : none ;
+}
+
+#after_Q6{
+  display : none ;
+}
+
+#after_Q7{
+  display : none ;
+}
+
+#after_Q8{
+  display : none ;
+}
+
+#after_Q9{
+  display : none ;
+}
+
+#after_Q10{
+  display : none ;
+}
+
+
+
+
+
+
+
+
+
+ body{
 	background:#B3B3B3;
 	margin:2%;
   font-size: 150%;
@@ -171,7 +396,7 @@ text-align: center;
 }
 
 button{
-			width:120px;
+			width:200px;
   			background-color: #00CCEE;
   			margin-left:1px;
   			font-size:110%;
@@ -210,105 +435,339 @@ img{
   display:none;
 }
 
-</style>
-  
 
-<script>
-       function check(){
+     </style>
+      
+    <script>
+      function check1(){
 
-	// var question1 = document.quiz.question1.value;
-	var question1 = document.quiz.question1.value;
-	var question2 = document.quiz.question2.value;
-  var question3 = document.quiz.question3.value;
-  var question4 = document.quiz.question4.value;
-  var question5 = document.quiz.question5.value;
-  var question6 = document.quiz.question6.value;
-  var question7 = document.quiz.question7.value;
-  var question8 = document.quiz.question8.value;
-  var question9 = document.quiz.question9.value;
-  var question10 = document.quiz.question10.value;
+	// var question2 = document.quiz.question2.value;
+	var question1 = document.quiz1.question1.value;
+	var correct = 0;
+
+	if (question1 == "No") {
+		correct++;
+	}
+	
+	// var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
+	// var messages = ["Great job!", "That's just okay", "You really need to do better"];
+	var score;
+
+
+  if(correct < 1){
+    document.getElementById("yesno1").innerHTML ="No, you are wrong!";
+  }
+  else {
+    document.getElementById("yesno1").innerHTML ="Yes ,you are right!";
+  }
   
+	document.getElementById("after_submit1").style.visibility = "visible";
+
+	document.getElementById("message1").innerHTML ="  Garlic is a healthy food that may have some antimicrobial properties. However, there is no evidence from the current outbreak that eating garlic has protected people from the new coronavirus.";
+	// document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
+	// document.getElementById("picture").src = pictures[score];
   
+	}
+
+
+function Q2(){
+ document.getElementById("after_Q2").style.display= "block"; 
+}
+
+
+
+function check2(){
+
+	var question2 = document.quiz2.question2.value;
 	var correct = 0;
 
 
-// 	if (question1 == "Providence") {
-// 		correct++;
-// }
-  
-	if (question1 == "Convalescent Plasma Therapy") {
-		correct++; 
-  }
-    // document.getElementById("message").innerHTML = messages[score];
-    
-	
-	if (question2 == "SARS-CoV-2") {
+	if (question2 == "No") {
 		correct++;
 	}
-  
-  if (question3 == "RNA") {
-		correct++; 
-  }
-  
-    if (question4 == "Incubation Period") {
-		correct++; 
-    }  
-  
-      if (question5 == "All the above are correct") {
-		correct++; }
-        
-        if (question6 == "Monkeys") {
-		correct++; }
-          
-          if (question7 == "30 January 2020") {
-		correct++; }
-            
-            if (question8 == "CW11 beta") {
-		correct++; }
-              
-              if (question9 == "T-Cell") {
-		correct++; }
-                
-                if (question10 == "BNT162") {
-		correct++; }
-  
-  
-	
-	// var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
-  
-	var messages = ["Very Poor,You can do better,Try Again after reading !","Poor,You can do better,Try Again after reading !","You can do better !","You can do better!","You can do better!","You can do better!","Its fine but You can do better!","Good ! Try to get cent percent!","Very Good ,Try for cent percent !","Excellent , you are very close to cent percent !","Outstanding !  " ];
-  
 	var score;
 
-  score = correct ;
-  
-// 	if (correct == 0) {
-// 		score = 2;
-// 	}
 
-// 	if (correct > 0 && correct < 2) {
-// 		score = 1;
-// 	}
+  if(correct < 1){
+    document.getElementById("yesno2").innerHTML ="No, you are wrong!";
+  }
+  else {
+    document.getElementById("yesno2").innerHTML ="Yes ,you are right!";
+  }
+	document.getElementById("after_submit2").style.visibility = "visible";
 
-// 	if (correct == 2) {
-// 		score = 0;
-// 	}
-
-	document.getElementById("after_submit").style.visibility = "visible";
-
-	document.getElementById("message").innerHTML = messages[score];
-	document.getElementById("number_correct").innerHTML = "Your score is " + correct ;
-  
- // document.getElementById("solutions").innerHTML = " ginger " ;
- 
-  x=document.getElementById("demo");
-      //Option 1: Change the style attribute directly
-   		 x.style.display="block";
-  
-	// document.getElementById("picture").src = pictures[score];
+	document.getElementById("message2").innerHTML ="People should NOT wear masks when exercising as masks may reduce the ability to breathe comfortably.";
+	
 	}
-</script>
-  
-</html>
 
-</body>
+function Q3(){
+ document.getElementById("after_Q3").style.display= "block"; 
+}
+
+
+
+function check3(){
+
+	var question3 = document.quiz3.question3.value;
+	var correct = 0;
+
+
+	if (question3 == "No") {
+		correct++;
+	}
+	var score;
+
+
+  if(correct < 1){
+    document.getElementById("yesno3").innerHTML ="No, you are wrong!";
+  }
+  else {
+    document.getElementById("yesno3").innerHTML ="Yes ,you are right!";
+  }
+	document.getElementById("after_submit3").style.visibility = "visible";
+
+	document.getElementById("message3").innerHTML ="Thermal scanners are effective in detecting people who have developed a fever (i.e. have a higher than normal body temperature) because of infection with the new coronavirus. However, they CANNOT detect people who are infected but are not yet sick with fever. This is because it takes between 2 and 10 days before people who are infected become sick and develop a fever.";
+	
+	}
+
+
+
+
+function Q4(){
+ document.getElementById("after_Q4").style.display= "block"; 
+}
+
+
+
+function check4(){
+
+	var question4 = document.quiz4.question4.value;
+	var correct = 0;
+
+
+	if (question4 == "1 metre") {
+		correct++;
+	}
+	var score;
+
+
+  if(correct < 1){
+    document.getElementById("yesno4").innerHTML ="No, you are wrong!";
+  }
+  else {
+    document.getElementById("yesno4").innerHTML ="Yes ,you are right!";
+  }
+	document.getElementById("after_submit4").style.visibility = "visible";
+
+	document.getElementById("message4").innerHTML ="The best way to protect yourself against COVID-19 is by maintaining physical distance of at least 1 metre from others(and frequently cleaning your hands!) ";
+	
+	}
+
+
+
+
+
+
+
+
+function Q5(){
+ document.getElementById("after_Q5").style.display= "block"; 
+}
+
+
+
+function check5(){
+
+	var question5 = document.quiz5.question5.value;
+	var correct = 0;
+
+
+	if (question5 == "Yes") {
+		correct++;
+	}
+	var score;
+
+
+  if(correct < 1){
+    document.getElementById("yesno5").innerHTML ="No, you are wrong!";
+  }
+  else {
+    document.getElementById("yesno5").innerHTML ="Yes ,you are right!";
+  }
+	document.getElementById("after_submit5").style.visibility = "visible";
+
+	document.getElementById("message5").innerHTML ="There is no reason to believe that cold weather can kill the new coronavirus or other diseases. The normal human body temperature remains around 36.5°C to 37°C, regardless of the external temperature or weather. ";
+	
+	}
+
+
+
+function Q6(){
+ document.getElementById("after_Q6").style.display= "block"; 
+}
+
+
+
+function check6(){
+
+	var question6 = document.quiz6.question6.value;
+	var correct = 0;
+
+
+	if (question6 == "None") {
+		correct++;
+	}
+	var score;
+
+
+  if(correct < 1){
+    document.getElementById("yesno6").innerHTML ="No, you are wrong!";
+  }
+  else {
+    document.getElementById("yesno6").innerHTML ="Yes ,you are right!";
+  }
+	document.getElementById("after_submit6").style.visibility = "visible";
+
+	document.getElementById("message6").innerHTML ="To date, there is no evidence or information to suggest that the COVID-19 virus transmitted through houseflies or mosquito bites. The virus that cause COVID-19 spreads primarily through droplets generated when an infected person coughs, sneezes or speaks.";
+	
+	}
+
+
+
+
+
+function Q7(){
+ document.getElementById("after_Q7").style.display= "block"; 
+}
+
+
+
+function check7(){
+
+	var question7 = document.quiz7.question7.value;
+	var correct = 0;
+
+
+	if (question7 == "No") {
+		correct++;
+	}
+	var score;
+
+
+  if(correct < 1){
+    document.getElementById("yesno7").innerHTML ="No, you are wrong!";
+  }
+  else {
+    document.getElementById("yesno7").innerHTML ="Yes ,you are right!";
+  }
+	document.getElementById("after_submit7").style.visibility = "visible";
+
+	document.getElementById("message7").innerHTML ="One can catch COVID-19, no matter how sunny or hot the weather is. Countries with hot weather have reported cases of COVID-19. To protect yourself, make sure you clean your hands frequently and thoroughly and avoid touching your eyes, mouth, and nose.";
+	
+	}
+
+
+
+
+
+    function Q8(){
+ document.getElementById("after_Q8").style.display= "block"; 
+}
+
+
+
+function check8(){
+
+	var question8 = document.quiz8.question8.value;
+	var correct = 0;
+
+
+	if (question8 == "No") {
+		correct++;
+	}
+	var score;
+
+
+  if(correct < 1){
+    document.getElementById("yesno8").innerHTML ="No, you are wrong!";
+  }
+  else {
+    document.getElementById("yesno8").innerHTML ="Yes ,you are right!";
+  }
+	document.getElementById("after_submit8").style.visibility = "visible";
+
+	document.getElementById("message8").innerHTML ="The prolonged use of medical masks can be uncomfortable. However, it does not lead to CO2 intoxication nor oxygen deficiency. While wearing a medical mask, make sure it fits properly and that it is tight enough to allow you to breathe normally. ";
+	
+	}
+
+
+
+function Q9(){
+ document.getElementById("after_Q9").style.display= "block"; 
+}
+
+
+
+function check9(){
+
+	var question9 = document.quiz9.question9.value;
+	var correct = 0;
+
+
+	if (question9 == "No") {
+		correct++;
+	}
+	var score;
+
+
+  if(correct < 1){
+    document.getElementById("yesno9").innerHTML ="No, you are wrong!";
+  }
+  else {
+    document.getElementById("yesno9").innerHTML ="Yes ,you are right!";
+  }
+	document.getElementById("after_submit9").style.visibility = "visible";
+
+	document.getElementById("message9").innerHTML ="The virus that causes COVID-19 is in a family of viruses called Coronaviridae. Antibiotics do not work against viruses.";
+	
+	}
+
+
+
+
+function Q10(){
+ document.getElementById("after_Q10").style.display= "block"; 
+}
+
+
+
+function check10(){
+
+	var question10 = document.quiz10.question10.value;
+	var correct = 0;
+
+
+	if (question10 == "No") {
+		correct++;
+	}
+	var score;
+
+
+  if(correct < 1){
+    document.getElementById("yesno10").innerHTML ="No, you are wrong!";
+  }
+  else {
+    document.getElementById("yesno10").innerHTML ="Yes ,you are right!";
+  }
+	document.getElementById("after_submit10").style.visibility = "visible";
+
+	document.getElementById("message10").innerHTML ="Viruses cannot travel on radio waves/mobile networks. COVID-19 is spreading in many countries that do not have 5G mobile networks.COVID-19 is spread through respiratory droplets when an infected person coughs, sneezes or speaks. People can also be infected by touching a contaminated surface and then their eyes, mouth or nose. ";
+	
+	}
+     </script>
+    
+    
+     </body>  
+            
+ </html>
+
